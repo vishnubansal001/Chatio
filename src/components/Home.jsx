@@ -21,16 +21,8 @@ export default function Home() {
         <div className="mt-[30px] mx-0 mb-0">
           <div>
             <div className="flex">
-              <div
-                className="w-full p-[15] text-center bg-gray-400 rounded-sm mx-10 text-xl mt-0 mb-0"
-                id="message1"
-                
-              ></div>
-              <div
-                className="w-full p-[15px] text-center bg-gray-700 text-white rounded-[10px] text-xl relative top-[120px] mb-[20px]"
-                id="message2"
-                
-              ></div>
+              <div className="w-full p-[15] text-center bg-gray-400 rounded-sm mx-10 text-xl mt-0 mb-0" id="message1"></div>
+              <div className="w-full p-[15px] text-center bg-gray-700 text-white rounded-[10px] text-xl relative top-[120px] mb-[20px]" id="message2"></div>
             </div>
           </div>
         </div>
@@ -41,8 +33,7 @@ export default function Home() {
                 type="text"
                 id="input"
                 placeholder="Enter your message"
-               className='w-full h-[58px] pl-[36px] outline-none border-none bg-gray-300 box-border rounded-[5px]'
-              />
+               className='w-full h-[58px] pl-[36px] outline-none border-none bg-gray-300 box-border rounded-[5px]' />
             </div>
             <div className="max-[380px]:ml-2 sm:ml-3">
               <button className='h-[50px] w-[50px] border-none outline-none rounded-[5px] bg-blue-700 text-white font-semibold cursor-pointer text-3xl flex justify-center items-center'>
